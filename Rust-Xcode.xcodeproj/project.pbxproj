@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1EB0DAA31D1001C300C63606 /* Cargo.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cargo.toml; sourceTree = "<group>"; };
+		1EB0DAA51D1001C300C63606 /* main.rs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.rs; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1EB0DA931D0FFF0A00C63606 = {
 			isa = PBXGroup;
 			children = (
+				1EB0DAA21D1001C300C63606 /* rust_xcode */,
 			);
+			sourceTree = "<group>";
+		};
+		1EB0DAA21D1001C300C63606 /* rust_xcode */ = {
+			isa = PBXGroup;
+			children = (
+				1EB0DAA31D1001C300C63606 /* Cargo.toml */,
+				1EB0DAA41D1001C300C63606 /* src */,
+			);
+			path = rust_xcode;
+			sourceTree = "<group>";
+		};
+		1EB0DAA41D1001C300C63606 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1EB0DAA51D1001C300C63606 /* main.rs */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -23,7 +46,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/local/bin/cargo;
-			buildWorkingDirectory = "/Users/siddharthbhatt/Projects/Rust-Xcode";
+			buildWorkingDirectory = "/Users/siddharthbhatt/Projects/Rust-Xcode/rust_xcode";
 			dependencies = (
 			);
 			name = "Rust-Xcode";

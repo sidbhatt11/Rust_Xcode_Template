@@ -1,5 +1,5 @@
 [package]
-name = "Rust-Xcode"
+name = "rust_xcode"
 version = "0.1.0"
 authors = ["Siddharth Bhatt <sidbhatt11@yahoo.in>"]
 
