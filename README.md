@@ -1,4 +1,4 @@
-# Running a Rust/Cargo Project on Xcode on Mac OS X
+# Running Rust/Cargo Project on Xcode on Mac OS X
 This is an Xcode 'external build system' configured to build and run a Rust/cargo project for demo purpose.
 
 # How to do this
