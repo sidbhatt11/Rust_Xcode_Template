@@ -18,11 +18,12 @@
 /* Begin PBXLegacyTarget section */
 		1EB0DA981D0FFF0A00C63606 /* Rust-Xcode */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
+			buildArgumentsString = build;
 			buildConfigurationList = 1EB0DA9B1D0FFF0A00C63606 /* Build configuration list for PBXLegacyTarget "Rust-Xcode" */;
 			buildPhases = (
 			);
-			buildToolPath = "/usr/local/bin/cargo build";
+			buildToolPath = /usr/local/bin/cargo;
+			buildWorkingDirectory = "/Users/siddharthbhatt/Projects/Rust-Xcode";
 			dependencies = (
 			);
 			name = "Rust-Xcode";
