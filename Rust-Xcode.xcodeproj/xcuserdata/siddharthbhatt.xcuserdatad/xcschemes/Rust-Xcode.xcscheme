@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "cd /Users/siddharthbhatt/Projects/Rust-Xcode/rust_xcode&#10;cargo run&#10;open .&#10;">
+               scriptText = "cd $SRCROOT/rust_xcode&#10;cargo run&#10;open .&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"

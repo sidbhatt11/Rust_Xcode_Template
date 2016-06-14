@@ -46,7 +46,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/local/bin/cargo;
-			buildWorkingDirectory = "/Users/siddharthbhatt/Projects/Rust-Xcode/rust_xcode";
+			buildWorkingDirectory = $SRCROOT/rust_xcode;
 			dependencies = (
 			);
 			name = "Rust-Xcode";
