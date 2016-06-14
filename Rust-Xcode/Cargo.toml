@@ -1,0 +1,6 @@
+[package]
+name = "Rust-Xcode"
+version = "0.1.0"
+authors = ["Siddharth Bhatt <sidbhatt11@yahoo.in>"]
+
+[dependencies]
